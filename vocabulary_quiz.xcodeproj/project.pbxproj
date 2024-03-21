@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADA08412BAC3C1A00696E6F /* vocabulary_quizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADA08402BAC3C1A00696E6F /* vocabulary_quizApp.swift */; };
+		CADA08432BAC3C1A00696E6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADA08422BAC3C1A00696E6F /* ContentView.swift */; };
+		CADA08452BAC3C1E00696E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADA08442BAC3C1E00696E6F /* Assets.xcassets */; };
+		CADA08482BAC3C1E00696E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADA08472BAC3C1E00696E6F /* Preview Assets.xcassets */; };
+		CADA08522BAC48A800696E6F /* vocabulary.csv in Resources */ = {isa = PBXBuildFile; fileRef = CADA08512BAC48A800696E6F /* vocabulary.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CADA083D2BAC3C1A00696E6F /* vocabulary_quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocabulary_quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADA08402BAC3C1A00696E6F /* vocabulary_quizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabulary_quizApp.swift; sourceTree = "<group>"; };
+		CADA08422BAC3C1A00696E6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CADA08442BAC3C1E00696E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADA08472BAC3C1E00696E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CADA08492BAC3C1E00696E6F /* vocabulary_quiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vocabulary_quiz.entitlements; sourceTree = "<group>"; };
+		CADA08512BAC48A800696E6F /* vocabulary.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vocabulary.csv; path = ../../../../Downloads/vocabulary.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADA083A2BAC3C1A00696E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADA08342BAC3C1A00696E6F = {
+			isa = PBXGroup;
+			children = (
+				CADA083F2BAC3C1A00696E6F /* vocabulary_quiz */,
+				CADA083E2BAC3C1A00696E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADA083E2BAC3C1A00696E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADA083D2BAC3C1A00696E6F /* vocabulary_quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADA083F2BAC3C1A00696E6F /* vocabulary_quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CADA08402BAC3C1A00696E6F /* vocabulary_quizApp.swift */,
+				CADA08422BAC3C1A00696E6F /* ContentView.swift */,
+				CADA08512BAC48A800696E6F /* vocabulary.csv */,
+				CADA08442BAC3C1E00696E6F /* Assets.xcassets */,
+				CADA08492BAC3C1E00696E6F /* vocabulary_quiz.entitlements */,
+				CADA08462BAC3C1E00696E6F /* Preview Content */,
+			);
+			path = vocabulary_quiz;
+			sourceTree = "<group>";
+		};
+		CADA08462BAC3C1E00696E6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CADA08472BAC3C1E00696E6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADA083C2BAC3C1A00696E6F /* vocabulary_quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADA084C2BAC3C1E00696E6F /* Build configuration list for PBXNativeTarget "vocabulary_quiz" */;
+			buildPhases = (
+				CADA08392BAC3C1A00696E6F /* Sources */,
+				CADA083A2BAC3C1A00696E6F /* Frameworks */,
+				CADA083B2BAC3C1A00696E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vocabulary_quiz;
+			productName = vocabulary_quiz;
+			productReference = CADA083D2BAC3C1A00696E6F /* vocabulary_quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADA08352BAC3C1A00696E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CADA083C2BAC3C1A00696E6F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CADA08382BAC3C1A00696E6F /* Build configuration list for PBXProject "vocabulary_quiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADA08342BAC3C1A00696E6F;
+			productRefGroup = CADA083E2BAC3C1A00696E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADA083C2BAC3C1A00696E6F /* vocabulary_quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADA083B2BAC3C1A00696E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADA08522BAC48A800696E6F /* vocabulary.csv in Resources */,
+				CADA08482BAC3C1E00696E6F /* Preview Assets.xcassets in Resources */,
+				CADA08452BAC3C1E00696E6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADA08392BAC3C1A00696E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADA08432BAC3C1A00696E6F /* ContentView.swift in Sources */,
+				CADA08412BAC3C1A00696E6F /* vocabulary_quizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CADA084A2BAC3C1E00696E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CADA084B2BAC3C1E00696E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CADA084D2BAC3C1E00696E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vocabulary_quiz/vocabulary_quiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vocabulary_quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = B7Z74R6MTN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volkanefe.vocabulary-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CADA084E2BAC3C1E00696E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vocabulary_quiz/vocabulary_quiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vocabulary_quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = B7Z74R6MTN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volkanefe.vocabulary-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADA08382BAC3C1A00696E6F /* Build configuration list for PBXProject "vocabulary_quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADA084A2BAC3C1E00696E6F /* Debug */,
+				CADA084B2BAC3C1E00696E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADA084C2BAC3C1E00696E6F /* Build configuration list for PBXNativeTarget "vocabulary_quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADA084D2BAC3C1E00696E6F /* Debug */,
+				CADA084E2BAC3C1E00696E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADA08352BAC3C1A00696E6F /* Project object */;
+}
