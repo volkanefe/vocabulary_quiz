@@ -9,6 +9,8 @@ import SwiftUI
 import Foundation
 import AppKit
 
+
+
 struct VocabularyItem: Identifiable {
     let id = UUID()
     let word: String
@@ -63,11 +65,16 @@ struct ContentView: View {
                 Text("Word: \(word.word)")
                     .font(.system(size: 24, weight: .bold, design: .monospaced))
                     .foregroundColor(.blue)
+                    .onTapGesture {
+                            speakWord(word.word)
+                        }
                 Text(word.englishSentence)
                     .font(.system(size:20))
                     .padding(.top)
                     .foregroundColor(.green)
-                    
+                    .onTapGesture {
+                            speakWord(word.englishSentence)
+                        }
                 Text(word.turkishSentence)
                     .font(.system(size:20))
                     .padding(.top)
@@ -92,9 +99,10 @@ struct ContentView: View {
                                 }) {
                                     Text(option)
                                         .padding()
+                                        .font(.system(size:16))
                                         .background(isCorrect != nil && isCorrect! && selectedWord?.kelime == option ? Color.green : (isCorrect != nil && !isCorrect! && selectedWord?.kelime == option ? Color.red : Color.primary))
                                         .foregroundColor(.white)
-                                        .cornerRadius(8)
+                                        
                                 }
                             }
                         }
@@ -153,6 +161,12 @@ struct ContentView: View {
             isCorrect = false
         }
     }
+    
+    func speakWord(_ word: String) {
+        let synth = NSSpeechSynthesizer()
+        synth.startSpeaking(word)
+    }
+
 }
 
 extension Array {
